@@ -7,9 +7,4 @@ const Post = new mongoose.Schema({
   picture: {type: String}
 })
 
-// {
-//   "author": 'Decimus',
-//   "title": "maks",
-//   "content": "wqr234",
-// }
 export default mongoose.model('Post', Post)
